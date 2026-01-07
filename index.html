@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
@@ -10,76 +9,81 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title> Convert Money </title>
+    <title>Convert Money</title>
 
 </head>
 
-
 <body>
 
+    <img src="./assets/logo.gif" alt="Convert-Money-Logo">
 
+    <main>
+        
 
-    <div id="wrapper">
+        <label> Converter <b> de </b>
 
+            <select>
 
-        <div id="logo-img">
+                <option>R$ Real Brasileiro </option>
 
+            </select>
 
-            <img src="./assets/logo 1.png" alt="">
-
-
-        </div>
-
-
-    
-        <input type="text" value="R$ Real brasileiro" readonly>
-
-        <select>
+        </label>
 
 
 
+        <label> Converter <b> Para </b>
 
+            <select>
 
-            <option value=""> US$ Dólar americano </option>
-            <option value=""> Euro </option>
-            <option value=""> Libra </option>
-            <option value=""> Bitcoin </option>
+                <option> US$ Dólar Americano </option>
+                <option> € Euro </option>
 
-            <input type="text">
+            </select>
 
-            <button> Converter </button>
-
-
-                <div id="caixa-para-converter">
-
-
-                    <img src="./assets/brasil 2.png" alt="brasil">
-                    <p> Real </p>
-                    <p>R$ 10.000,00 </p>
-                    <img src="./assets/seta.png" alt="seta">
-                    <img src="./assets/estados-unidos (1) 1.png" alt="EUA">
-                    <p>Dólar americano</p>
-                    <p>US$ 2.000,00</p>
+        </label>
 
 
 
+        <label> <b> Valor </b>
 
-                </div>
+            <input placeholder="R$ 10.000,00">
 
-
-
-        </select>
-
+        </label>
 
 
-    </div>
+        <button> Converter </button>
 
+
+
+        <section>
+
+            <div>
+
+                <img src="./assets/brasil 2.png" alt="moeda-a-converter">
+                <p> real </p>
+                <p> 0,00 </p>
+
+            </div>
+
+
+            <img src="./assets/seta.png" alt="seta">
+
+
+            <div>
+
+                <img src="./assets/estados-unidos (1) 1.png" alt="moeda-convertida">
+                <p> Dólar Americano </p>
+                <p> 0.00 </p>
+
+            </div>
+
+        </section>
+
+
+    </main>
 
 
 </body>
-
-
-<script src="./scripts.js"></script>
-
 
 </html>

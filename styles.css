@@ -104,6 +104,23 @@ button:active {
 }
 
 
+.moeda-a-converter, .moeda-convertida{
+
+color: #555555;
+font-weight: 700;
+font-size: 18px;
+
+
+}
+
+.currency{
+
+color: #777777;
+font-size: 15px;
+
+}
+
+
 section {
 
     border: 1px solid #772FD3;
